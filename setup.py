@@ -10,7 +10,7 @@ if StrictVersion(platform.python_version()) < StrictVersion('3.0.0'):
 
 setup(
     name='swagger-ui-chalice-py',
-    version='21.11.29',
+    version='21.11.30',
     description=(
         'Swagger UI for Python web framework, '
         'such as Chalice, Tornado, Flask, Quart, Sanic and Falcon.'
