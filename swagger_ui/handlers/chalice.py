@@ -23,7 +23,7 @@ def handler(doc):
 def match(doc):
     try:
         import chalice
-        if isistance(doc.app, Chalice):
+        if isinstance(doc.app, Chalice):
             return handler
     except ImportError:
         pass
